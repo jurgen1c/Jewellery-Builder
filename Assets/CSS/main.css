@@ -2,19 +2,19 @@
 
 .main-header { margin: 2rem auto; font-size: 4rem; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; }
 
-.container { width: 75%; margin: 2rem auto; display: -webkit-box; display: -ms-flexbox; display: flex; }
+.container { width: 85%; margin: 3rem auto; display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-.container a { width: 33%; height: -webkit-fit-content; height: -moz-fit-content; height: fit-content; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.container a { width: 25%; height: -webkit-fit-content; height: -moz-fit-content; height: fit-content; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .container a img { width: 80%; height: 80%; }
 
 .builder-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; height: 100vh; }
 
-.select-cont { display: -webkit-box; display: -ms-flexbox; display: flex; width: 25%; height: 100%; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 1rem; border: 1px solid red; }
+.select-cont { display: -webkit-box; display: -ms-flexbox; display: flex; width: 25%; height: 100%; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 1rem; border: 1px solid red; overflow: scroll; }
 
-.build-wrap { position: relative; width: 75%; height: 100%; background: url("../Images/pearls.png"); background-position: center bottom; background-size: cover; }
+.build-wrap { position: relative; width: 75%; height: 100%; background-position: center bottom; background-size: cover; }
 
-.stone-wrap1, .stone-wrap2, .stone-wrap3, .stone-wrap4, .stone-wrap5, .stone-wrap6, .stone-wrap7 { width: 9rem; height: 8rem; border: 1px solid pink; position: absolute; z-index: 1; }
+.stone-wrap1, .stone-wrap2, .stone-wrap3, .stone-wrap4, .stone-wrap5, .stone-wrap6, .stone-wrap7 { width: 9rem; height: 8rem; border: 1px solid black; position: absolute; z-index: 1; }
 
 .stone-wrap1 { top: 20%; left: 10%; }
 

@@ -10,6 +10,19 @@
   <div class="div builder-wrap">
     <div class="select-cont">
       <div class="temp-wrap">
+        <h1>Welcome to builder</h1>
+        <h2>Choose Template</h2>
+        <select id="select-t" onchange="createTemplate(value)" name="template">
+          <option selected="selected" value="one-p">One Piece</option>
+          <option value="three-p">Three Piece</option>
+          <option value="seven-p">Seven Piece</option>
+        </select>
+        <h2>Choose Base</h2>
+        <select id="select-b" onchange="selectBase(value)" name="base">
+          <option value="pearls">Pearls</option>
+          <option value="silver">Silver Chain</option>
+          <option value="gold">Gold Chain</option>
+        </select>
         <h3>Choose your Stones</h3>
         <button type="button" onclick="createStone()">Create Stone</button>
       </div>
@@ -71,13 +84,13 @@
       </div>
     </div>
     <div class="build-wrap">
-      <div class="stone-wrap1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <!-- <div class="stone-wrap1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
       <div class="stone-wrap2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
       <div class="stone-wrap3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
       <div class="stone-wrap4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
       <div class="stone-wrap5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
       <div class="stone-wrap6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-      <div class="stone-wrap7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="stone-wrap7" ondrop="drop(event)" ondragover="allowDrop(event)"></div> -->
     </div>
   </div>
   <script src="./Assets/JS/builder.js"></script>

@@ -10,13 +10,14 @@
   flex-direction: column;
   padding: 1rem;
   border: 1px solid red;
+  overflow: scroll;
 }
 
 .build-wrap{
   position: relative;
   width: 75%;
   height: 100%;
-  background: url('../Images/pearls.png');
+  //background: url('../Images/pearls.png');
   background-position: center bottom;
   background-size: cover;
 }
@@ -30,7 +31,7 @@
 .stone-wrap7 {
   width: 9rem;
   height: 8rem;
-  border: 1px solid pink;
+  border: 1px solid black;
   position: absolute;
   z-index: 1;
 }
