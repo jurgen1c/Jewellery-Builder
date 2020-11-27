@@ -1,0 +1,105 @@
+.builder-wrap{
+  display: flex;
+  height: 100vh;
+}
+
+.select-cont{
+  display: flex;
+  width: 25%;
+  height: 100%;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid red;
+}
+
+.build-wrap{
+  position: relative;
+  width: 75%;
+  height: 100%;
+  background: url('../Images/pearls.png');
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.stone-wrap1,
+.stone-wrap2,
+.stone-wrap3,
+.stone-wrap4,
+.stone-wrap5,
+.stone-wrap6,
+.stone-wrap7 {
+  width: 9rem;
+  height: 8rem;
+  border: 1px solid pink;
+  position: absolute;
+  z-index: 1;
+}
+
+.stone-wrap1 {
+  top: 20%;
+  left: 10%;
+}
+
+.stone-wrap2 {
+  top: 50%;
+  left: 20%;
+}
+
+.stone-wrap3 {
+  top: 70%;
+  left: 42%;
+}
+
+.stone-wrap4 {
+  top: 50%;
+  right: 20%;
+}
+
+.stone-wrap5 {
+  top: 20%;
+  right: 10%;
+}
+
+.stone-wrap6 {
+  top: 23%;
+  left: 32%;
+}
+
+.stone-wrap7 {
+  top: 23%;
+  right: 32%;
+}
+
+.stone {
+  margin: 1rem;
+  width: 5rem;
+  height: 5rem;
+  background: blue;
+}
+
+.wrap {
+  display: flex;
+  width: 90%;
+  min-height: 7rem;
+  border: solid 1px blue;
+  > div{
+    width: 50%;
+  }
+}
+
+#select1 {width:150px; color:rgba(0, 0, 0, 0);}
+#select1:focus, #select1:focus {
+color:black;
+}
+.white {
+  background:white;
+}
+.red {
+  background:red;
+}
+.yellow {
+  background:yellow;
+}
+.green {
+  background:green
+}

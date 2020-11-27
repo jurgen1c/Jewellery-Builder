@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Assets/CSS/main.css">
+  <title>Builder</title>
+</head>
+<body>
+  <div class="div builder-wrap">
+    <div class="select-cont">
+      <div class="temp-wrap">
+        <h3>Choose your Stones</h3>
+        <button type="button" onclick="createStone()">Create Stone</button>
+      </div>
+      <div class="wrap" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div>
+          <label for="stone-s"> Choose stone shape:</label>
+          <select id="select1" onchange="shapeFunction('stone-1', value)" name="stone-s">
+            <option value="white">Drop</option>
+            <option value="red">Circle</option>
+            <option value="yellow">square</option>
+            <option value="green">diamond</option>
+          </select>
+          <br />
+          <label for="stone-bg"> Choose stone color:</label>
+          <select id="select1" onchange="colourFunction('stone-1', value)" name="stone-bg">
+            <option class="white" value="white">WHITE</option>
+            <option class="red" value="red">RED</option>
+            <option class="yellow" value="yellow">YELLOW</option>
+            <option class="green" value="green">GREEN</option>
+          </select>
+        </div>
+        <div id="stone-1" class="stone" draggable="true" ondragstart="drag(event)">Test Stone</div>
+      </div>
+      <div class="wrap" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div>
+          <label for="stone-bg"> Choose stone color:</label>
+          <select id="select1" onchange="colourFunction('stone-2', value)" name="stone-bg">
+            <option class="white" value="white">WHITE</option>
+            <option class="red" value="red">RED</option>
+            <option class="yellow" value="yellow">YELLOW</option>
+            <option class="green" value="green">GREEN</option>
+          </select>
+        </div>
+        <div id="stone-2" class="stone" draggable="true" ondragstart="drag(event)">Test Stone 2</div>
+      </div>
+      <div class="wrap" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div>
+          <label for="stone-bg"> Choose stone color:</label>
+          <select id="select1" onchange="colourFunction('stone-3', value)" name="stone-bg">
+            <option class="white" value="white">WHITE</option>
+            <option class="red" value="red">RED</option>
+            <option class="yellow" value="yellow">YELLOW</option>
+            <option class="green" value="green">GREEN</option>
+          </select>
+        </div>
+        <div id="stone-3" class="stone" draggable="true" ondragstart="drag(event)">Test Stone 3</div>
+      </div>
+      <div class="wrap" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div>
+          <label for="stone-bg"> Choose stone color:</label>
+          <select id="select1" onchange="colourFunction('stone-4', value)" name="stone-bg">
+            <option class="white" value="white">WHITE</option>
+            <option class="red" value="red">RED</option>
+            <option class="yellow" value="yellow">YELLOW</option>
+            <option class="green" value="green">GREEN</option>
+          </select>
+        </div>
+        <div id="stone-4" class="stone" draggable="true" ondragstart="drag(event)">Test Stone 4</div>
+      </div>
+    </div>
+    <div class="build-wrap">
+      <div class="stone-wrap1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="stone-wrap2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="stone-wrap3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="stone-wrap4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="stone-wrap5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="stone-wrap6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div class="stone-wrap7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+  </div>
+  <script src="./Assets/JS/builder.js"></script>
+</body>
+</html>
